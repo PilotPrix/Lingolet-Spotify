@@ -9,8 +9,7 @@
     setInterval(() => {
       currentLyrics = document.getElementsByClassName("arY01KDGhWNgzlAHlhpd")[0]
         if (currentLyrics && currentLyrics != previousLyrics) {
-          copyToClipboard(currentLyrics.innerHTML);
-          previousLyrics.innerHTML = "Hello world";
+          navigator.clipboard.writeText(currentLyrics.innerHTML);
           previousLyrics = currentLyrics;
           console.log(currentLyrics.innerHTML);
         }
