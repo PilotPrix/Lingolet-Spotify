@@ -1,7 +1,7 @@
 {
   "name": "Lingolet Spotify",
   "version": "0.1.0",
-  "description": "Learn languages by singing",
+  "description": "Learn languages through singing",
   "permissions": ["storage", "tabs"],
   "host_permissions": ["https://*.spotify.com/*"],
   "background": {
